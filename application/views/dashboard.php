@@ -4,93 +4,12 @@
 <!-- Mirrored from app-sorteos.com/en by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 May 2020 12:56:53 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
-<meta charset="utf-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AppSorteos &ndash; Free Instagram Comment Picker and Giveaways</title>
-<meta name="description" content="Create free Giveaways from Instagram, Facebook, Youtube. Pick a random comment winner from your photos and videos.">
-<meta name="keywords" content="giveaway, instagram comment picker, instagram contests, free instagram giveaway, facebook comment picker, random comment picker, random winners">
-<link href="build/isologo.ico" type="image/x-icon" rel="icon" />
-<link href="build/isologo.ico" type="image/x-icon" rel="shortcut icon" />
-<meta name="google-site-verification" content="anRG_D8WAq_EemBNsdLEx2FT-RSmW7IJUzOt8QNWYM4" />
-
-<link rel="stylesheet" href="vendors/use.fontawesome.com/releases/v5.7.0/css/all.css">
-<link rel="stylesheet" href="vendors/stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-
-<link rel="stylesheet" href="build/css/style03aa.css?1590497493" /> <link rel="stylesheet" href="build/font/asicons-v1.0/style0bfc.css?1588070804" />
-<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=PT+Serif:700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Nunito|Roboto&amp;display=swap" rel="stylesheet">
-
-<link rel="alternate" hreflang="x-default" href="https://app-sorteos.com/es" />
-<link rel="alternate" hreflang="es" href="https://app-sorteos.com/es" />
-<link rel="alternate" hreflang="en" href="https://app-sorteos.com/en" />
-<link rel="alternate" hreflang="fr" href="https://app-sorteos.com/fr" />
-<link rel="alternate" hreflang="pt" href="https://app-sorteos.com/pt" />
-<meta property="og:title" content="Free Instagram Comment Picker and Giveaways" />
-<meta property="og:description" content="Create free Giveaways from Instagram, Facebook, Youtube. Pick a random comment winner from your photos and videos." />
-<meta property="og:url" content="https://app-sorteos.com/en" />
-<meta property="og:type" content="website" />
-<meta property="og:image" content="https://app-sorteos.com/img/sharing/en_landing.jpg" />
-<meta property="og:image:type" content="image/jpeg" />
-<meta property="og:image:width" content="900" />
-<meta property="og:image:height" content="473" />
-<meta property="fb:app_id" content="1182823625241812" />
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:title" content="Free Instagram Comment Picker and Giveaways">
-<meta property="twitter:description" content="Create free Giveaways from Instagram, Facebook, Youtube. Pick a random comment winner from your photos and videos.">
-<meta property="twitter:image" content="https://app-sorteos.com/img/sharing/en_landing.jpg">
-<script src="https://app-sorteos.com/js/adsbygoogle.js"></script>
+<?php $this->load->view('modul template/head'); ?>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
-<a class="navbar-brand" href="https://app-sorteos.com/en">
+<?php $this->load->view('modul template/navbar'); ?>
 
-
-
-<img src="https://app-sorteos.com/img/logo2.png" alt="" width="160">
-</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
-<ul class="navbar-nav ml-auto align-items-center">
-
-
-
-<li class="nav-item mr-4">
-<a href="https://app-sorteos.com/en/pricing" class="nav-link">
-<strong>Pricing</strong>
-</a>
-</li>
-<li class="nav-item mr-4">
-<a href="https://app-sorteos.com/en/faqs" class="nav-link">
-<strong>Help</strong>
-</a>
-</li>
-<li class="nav-item mr-4">
-<a href="https://app-sorteos.com/en/support" class="nav-link">
-<strong>Contact</strong>
-</a>
-</li>
-<li class="nav-item">
-<a href="https://app-sorteos.com/en/apps" class="btn btn-md btn-primary my-2 my-sm-0 btn-success btn-bold">
-<i class="fas fa-plus mr-2"></i>Create Giveaway </a>
-</li>
-<li class="nav-item dropdown ml-2">
-<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-<strong style="text-transform: uppercase;">en</strong>
-</a>
-<div class="dropdown-menu dropdown-menu-lang" aria-labelledby="navbarDropdownMenuLink">
-<a class="dropdown-item" href="https://app-sorteos.com/en">English</a>
-<a class="dropdown-item" href="https://app-sorteos.com/es">Español</a>
-<a class="dropdown-item" href="https://app-sorteos.com/fr">Francais</a>
-<a class="dropdown-item" href="https://app-sorteos.com/pt">Português</a>
-</div>
-</li>
-</ul>
-</div>
-</nav>
-
-<style>
+<!-- <style>
 .navbar .form-inline {
 padding: 6px 10px;
     position: absolute;
@@ -137,387 +56,388 @@ padding: 6px 10px;
   text-decoration: none;
   color: #fff;
 }
-</style>
+</style> -->
 <div class="main">
-<div style="background-color: #f5fafd;">
-<div class="jumbotron gradient bg-whiate rounded-0 text-white text-center slope">
-<div class="container pb-1 pt-1">
-<h1><strong>Free Instagram Giveaways</strong></h1>
-<p class="lead mt-3">Create free Instagram giveaways & sweepstakes for free</p>
-<div class="row justify-content-center mt-5 mb-3">
-<div class="col-12 col-sm-8 col-md-6 col-lg-5 mt-3 ig-input">
-<form id="createForm" action="https://app-sorteos.com/en/app" method="POST">
-<div class="ig-input__group">
-<i class="fab fa-instagram ig-input-icon"></i>
-<input name="url[]" placeholder="Enter an Instagram Photo URL" type="url" class="form-control form-control-lg" value="">
-<i class="fas error-icon fa-exclamation-triangle text-danger"></i>
-<i class="icon-mas add-icon d-noane" title="Add another post" data-toggle="tooltip" data-placement="top"></i>
+    <div style="background-color: #f5fafd;">
+        <div class="jumbotron gradient bg-whiate rounded-0 text-white text-center slope">
+            <div class="container pb-1 pt-1">
+            <h1><strong>Free Instagram Giveaways</strong></h1>
+            <p class="lead mt-3">Create free Instagram giveaways & sweepstakes for free</p>
+            <div class="row justify-content-center mt-5 mb-3">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-5 mt-3 ig-input">
+                <form id="createForm" action="https://app-sorteos.com/en/app" method="POST">
+                    <div class="ig-input__group">
+                        <i class="fab fa-instagram ig-input-icon"></i>
+                        <input name="url[]" placeholder="Enter an Instagram Photo URL" type="url" class="form-control form-control-lg" value="">
+                        <i class="fas error-icon fa-exclamation-triangle text-danger"></i>
+                        <i class="icon-mas add-icon d-noane" title="Add another post" data-toggle="tooltip" data-placement="top"></i>
+                    </div>
+                    <div id="toappend">
+                        <div class="ig-input__group mt-3 d-none" id="fmi">
+                            <i class="fab fa-instagram ig-input-icon"></i>
+                            <input name="url[]" placeholder="Enter an Instagram Photo URL" type="url" class="form-control form-control-lg" value="">
+                            <i class="fas error-icon fa-exclamation-triangle text-danger"></i>
+                            <i class="far fa-trash-alt delete-icon" title="Remove" data-toggle="tooltip" data-placement="top"></i>
+                        </div>
+                    </div>
+                    <div class="disclaimer js-disclaimer d-none">
+                        <i class="icon-double-check mr-2"></i>This is a MultiPost Giveaway. <a target="_blank" href="https://app-sorteos.com/en/blog/instagram-multi-accounts-giveaways">Learn more.</a>
+                    </div>
+                <button id="sigmp" type="button" class="btn mt-4 btn-outline-light" onclick="submitMultiForm(event)">
+                <span class="t">Start</span>
+                <span class="l d-none">Loading..</span>
+                </button>
+                <input id="sigmp2" type="hidden" name="type" value="multi-post-instagram">
+                </form>
+            </div>
+        </div>
+
+        <script>
+        var procressMultiForm = function () {
+
+            var $btn = $('#sigmp');
+
+            $btn.prop('disabled', true);
+            $btn.find('.t').addClass('d-none');
+            $btn.find('.l').removeClass('d-none');
+
+            var inputs = $('.ig-input__group').not(".d-none");
+
+            MultiForm.proccessMedia(inputs);
+
+            if (inputs.length === 1) {
+                $('#sigmp2').val('instagram');
+                setTimeout(function () {
+                    $('#createForm').submit();
+                }, 2000);
+                return true;
+            }
+            $('#sigmp2').val('multi-post-instagram');
+            setTimeout(function () {
+                $.ajax({
+                    url: '/api/validate',
+                    type: 'post',
+                    dataType: 'json',
+                    data: $('form').serialize(),
+                    success: function(response) {
+                        var inputs = $('.ig-input__group');
+                        var hasErrors = false;
+
+                        $btn.prop('disabled', false);
+                        $btn.find('.t').removeClass('d-none');
+                        $btn.find('.l').addClass('d-none');
+
+                        if (response.data.payment) {
+                            window.location.href = '/' + locale + '/app/' + response.data.preference;
+                            return;
+                        }
+
+                        if (response.data.preference_id) {
+                            MultiForm.showUpdagrade(response.data);
+                            mixpanel.track("AS_ShowedUpgradeMultiPost", response.data.plan);
+                            return;
+                        }
+
+                        for (var i=0; i<response.data.length;i++) {
+                            var item = response.data[i];
+
+                            if (item.error && item.error!=='ERROR_EMPTY_URL') {
+                                $(inputs[i]).addClass('has-error');
+                                hasErrors = true;
+                            } else {
+                                $(inputs[i]).removeClass('has-error');
+                            }
+                        }
+
+                        if (hasErrors) {
+                            MultiForm.showErrors(response.data);
+                        }
+
+                    }
+                });
+            }, 3000);
+            return false;
+        }
+
+        var MultiForm = {};
+
+        MultiForm.init = function () {
+            var $input = $('#fmi');
+
+            for (i=0;i<10;i++) {
+                $('#toappend').append( $input.clone() );
+            }
+
+            $('.ig-input__group .form-control').on('keyup', function(e) {
+                var $el = $(this);
+                var $parent = $el.parent('.ig-input__group');
+                $parent.removeClass('has-error');
+            });
+            $('.ig-input__group .delete-icon').on('click', function(e) {
+                var $el = $(this);
+                var $parent = $el.parent('.ig-input__group');
+                $parent.addClass('d-none');
+                $parent.find('input').val('');
+                MultiForm.toggleDisclaimer();
+            });
+            $('.ig-input__group .add-icon').on('click', function(e) {
+                $('.ig-input__group.d-none').first().removeClass('d-none');
+                MultiForm.toggleDisclaimer();
+            });
+        };
+
+        MultiForm.toggleDisclaimer = function () {
+            var inputs = $('.ig-input__group').not(".d-none");
+            var $disclaimer = $('.js-disclaimer');
+            if (inputs.length === 1) {
+                $disclaimer.addClass('d-none');
+            } else {
+                $disclaimer.removeClass('d-none');
+            }
+        };
+
+        MultiForm.showErrors = function (data) {
+            var $el = $('#errors_display');
+            $el.html('');
+            for (var i=0; i<data.length;i++) {
+                var item = data[i];
+
+                if (item.error && item.error!=='ERROR_EMPTY_URL') {
+                    $el.append('<div class="text-danger"><i class="fas fa-exclamation-triangle mt-4 mr-2"></i>'+__e[item.error]+'</div>');
+                    $el.append('<small><a target="_blank" href="'+item.url+'" class="ml-3 text-secondary">'+item.url+'</a></small>');
+                }
+            }
+            $('#errorGenericModal').modal();
+        };
+
+        MultiForm.showUpdagrade = function (data) {
+            $pref = $('.js-preference-url').text();
+            $('.js-plan-currency').text(data.plan.currency);
+            $('.js-plan-price').text(data.plan.price);
+            $('.js-plan-cc').text(MultiForm.getNum(data.total_comments));
+            $('.js-plan-pc').text(data.total_posts);
+            $('.js-btn-preference').attr('href', $pref + data.preference_hash);
+            if (data.plan.currency === '$') {
+                $('.js-mp-logo').show();
+            }
+            $('#upgradeModal2').modal();
+        };
+
+        MultiForm.getNum = function (x) {
+        return x.toLocaleString().replace(',','.');
+        };
+
+        MultiForm.proccessMedia = function (urls) {
+            urls.each(function (index) {
+                var url = $(this).find('input').val();
+                url = parseurl(url);
+                if(!url) {
+                    return false;
+                }
+                $(this).find('input').val(url);
+
+                var shortcode = getShortcode(url);
+                var uri = 'https://www.instagram.com/p/' + shortcode + '/?__a=1';
+
+                $.getJSON(uri, function (r) {
+                    if (r.graphql && r.graphql.shortcode_media) {
+                        var data = r.graphql.shortcode_media;
+                        var l = parseResponse(data);
+                        var hash = CryptoJS.MD5(url).toString();
+                        var ck = encodeURIComponent(JSON.stringify(l));
+                        setCookie(hash, ck, 1);
+                    }
+                });
+            });
+        };
+
+        var parseurl = function (url) {
+            var sc = getShortcode(url);
+            if (sc) {
+                return 'https://www.instagram.com/p/'+sc+'/';
+            }
+            return false;
+        }
+        var getShortcode = function (url) {
+            if (url.indexOf("instagram.com") === -1) {
+                return '';
+            }
+            if (url.indexOf("https://app-sorteos.com/p/") === -1 && url.indexOf("https://app-sorteos.com/tv/") === -1) {
+                return '';
+            }
+            if (url.indexOf("https://app-sorteos.com/p/") > -1 ) {
+                var cont = url.indexOf("https://app-sorteos.com/p/")+3;
+            }
+            if (url.indexOf("https://app-sorteos.com/tv/") > -1 ) {
+                var cont = url.indexOf("https://app-sorteos.com/tv/")+4;
+            }
+            shortcode = url.substr(cont);
+            if (shortcode.indexOf("https://app-sorteos.com/") > -1) {
+                shortcode = shortcode.substr(0, shortcode.indexOf("https://app-sorteos.com/"));
+            }
+
+            return shortcode;
+        }
+        var parseResponse = function (data) {
+            var ow = data.owner;
+            var cc = '';
+            var ti = '';
+            var th = '';
+
+            if (data.edge_media_to_parent_comment && data.edge_media_to_parent_comment.count) {
+                cc = parseInt(data.edge_media_to_parent_comment.count);
+            }
+
+            if (data.display_url) {
+                th = data.display_url;
+            }
+
+            if (data.edge_media_to_caption &&
+                data.edge_media_to_caption.edges &&
+                data.edge_media_to_caption.edges[0] &&
+                data.edge_media_to_caption.edges[0]['node'] &&
+                data.edge_media_to_caption.edges[0]['node']['text']) {
+                ti = data.edge_media_to_caption.edges[0]['node']['text'];
+            }
+
+            ow.followers = 0;
+
+            return {
+                'comments_count': cc,
+                'comments_disabled': data.comments_disabled,
+                'owner': ow,
+                'media_id': data.id + '_' + ow.id,
+                'shortcode': data.shortcode,
+                'title': ti,
+                'thumb': th,
+                'url': 'https://www.instagram.com/p/' + data.shortcode + '/'
+            };
+        }
+        </script> </div>
+    </div>
 </div>
-<div id="toappend">
-<div class="ig-input__group mt-3 d-none" id="fmi">
-<i class="fab fa-instagram ig-input-icon"></i>
-<input name="url[]" placeholder="Enter an Instagram Photo URL" type="url" class="form-control form-control-lg" value="">
-<i class="fas error-icon fa-exclamation-triangle text-danger"></i>
-<i class="far fa-trash-alt delete-icon" title="Remove" data-toggle="tooltip" data-placement="top"></i>
-</div>
-</div>
-<div class="disclaimer js-disclaimer d-none">
-<i class="icon-double-check mr-2"></i>This is a MultiPost Giveaway. <a target="_blank" href="https://app-sorteos.com/en/blog/instagram-multi-accounts-giveaways">Learn more.</a>
-</div>
-<button id="sigmp" type="button" class="btn mt-4 btn-outline-light" onclick="submitMultiForm(event)">
-<span class="t">Start</span>
-<span class="l d-none">Loading..</span>
-</button>
-<input id="sigmp2" type="hidden" name="type" value="multi-post-instagram">
-</form>
-</div>
-</div>
 
-<script>
-var procressMultiForm = function () {
-
-	var $btn = $('#sigmp');
-
-	$btn.prop('disabled', true);
-	$btn.find('.t').addClass('d-none');
-	$btn.find('.l').removeClass('d-none');
-
-	var inputs = $('.ig-input__group').not(".d-none");
-
-	MultiForm.proccessMedia(inputs);
-
-	if (inputs.length === 1) {
-		$('#sigmp2').val('instagram');
-		setTimeout(function () {
-			$('#createForm').submit();
-		}, 2000);
-		return true;
-	}
-	$('#sigmp2').val('multi-post-instagram');
-	setTimeout(function () {
-	    $.ajax({
-	        url: '/api/validate',
-	        type: 'post',
-	        dataType: 'json',
-	        data: $('form').serialize(),
-	        success: function(response) {
-	        	var inputs = $('.ig-input__group');
-	        	var hasErrors = false;
-
-	    		$btn.prop('disabled', false);
-				$btn.find('.t').removeClass('d-none');
-				$btn.find('.l').addClass('d-none');
-
-	        	if (response.data.payment) {
-	        		window.location.href = '/' + locale + '/app/' + response.data.preference;
-	        		return;
-	        	}
-
-	        	if (response.data.preference_id) {
-	        		MultiForm.showUpdagrade(response.data);
-	        		mixpanel.track("AS_ShowedUpgradeMultiPost", response.data.plan);
-	        		return;
-	        	}
-
-	        	for (var i=0; i<response.data.length;i++) {
-	        		var item = response.data[i];
-
-	        		if (item.error && item.error!=='ERROR_EMPTY_URL') {
-	        			$(inputs[i]).addClass('has-error');
-	        			hasErrors = true;
-	        		} else {
-	        			$(inputs[i]).removeClass('has-error');
-	        		}
-	        	}
-
-	        	if (hasErrors) {
-	        		MultiForm.showErrors(response.data);
-	        	}
-
-	        }
-	    });
-	}, 3000);
-	return false;
-}
-
-var MultiForm = {};
-
-MultiForm.init = function () {
-	var $input = $('#fmi');
-
-	for (i=0;i<10;i++) {
-		$('#toappend').append( $input.clone() );
-	}
-
-	$('.ig-input__group .form-control').on('keyup', function(e) {
-		var $el = $(this);
-		var $parent = $el.parent('.ig-input__group');
-		$parent.removeClass('has-error');
-	});
-	$('.ig-input__group .delete-icon').on('click', function(e) {
-		var $el = $(this);
-		var $parent = $el.parent('.ig-input__group');
-		$parent.addClass('d-none');
-		$parent.find('input').val('');
-		MultiForm.toggleDisclaimer();
-	});
-	$('.ig-input__group .add-icon').on('click', function(e) {
-		$('.ig-input__group.d-none').first().removeClass('d-none');
-		MultiForm.toggleDisclaimer();
-	});
-};
-
-MultiForm.toggleDisclaimer = function () {
-	var inputs = $('.ig-input__group').not(".d-none");
-	var $disclaimer = $('.js-disclaimer');
-	if (inputs.length === 1) {
-		$disclaimer.addClass('d-none');
-	} else {
-		$disclaimer.removeClass('d-none');
-	}
-};
-
-MultiForm.showErrors = function (data) {
-	var $el = $('#errors_display');
-	$el.html('');
-	for (var i=0; i<data.length;i++) {
-		var item = data[i];
-
-		if (item.error && item.error!=='ERROR_EMPTY_URL') {
-			$el.append('<div class="text-danger"><i class="fas fa-exclamation-triangle mt-4 mr-2"></i>'+__e[item.error]+'</div>');
-			$el.append('<small><a target="_blank" href="'+item.url+'" class="ml-3 text-secondary">'+item.url+'</a></small>');
-		}
-	}
-	$('#errorGenericModal').modal();
-};
-
-MultiForm.showUpdagrade = function (data) {
-	$pref = $('.js-preference-url').text();
-	$('.js-plan-currency').text(data.plan.currency);
-	$('.js-plan-price').text(data.plan.price);
-	$('.js-plan-cc').text(MultiForm.getNum(data.total_comments));
-	$('.js-plan-pc').text(data.total_posts);
-	$('.js-btn-preference').attr('href', $pref + data.preference_hash);
-	if (data.plan.currency === '$') {
-		$('.js-mp-logo').show();
-	}
-	$('#upgradeModal2').modal();
-};
-
-MultiForm.getNum = function (x) {
- return x.toLocaleString().replace(',','.');
-};
-
-MultiForm.proccessMedia = function (urls) {
-	urls.each(function (index) {
-	    var url = $(this).find('input').val();
-	    url = parseurl(url);
-	    if(!url) {
-	    	return false;
-	    }
-	    $(this).find('input').val(url);
-
-	    var shortcode = getShortcode(url);
-	    var uri = 'https://www.instagram.com/p/' + shortcode + '/?__a=1';
-
-	    $.getJSON(uri, function (r) {
-	        if (r.graphql && r.graphql.shortcode_media) {
-	            var data = r.graphql.shortcode_media;
-	            var l = parseResponse(data);
-	            var hash = CryptoJS.MD5(url).toString();
-	            var ck = encodeURIComponent(JSON.stringify(l));
-	    		setCookie(hash, ck, 1);
-	        }
-	    });
-	});
-};
-
-var parseurl = function (url) {
-	var sc = getShortcode(url);
-	if (sc) {
-		return 'https://www.instagram.com/p/'+sc+'/';
-	}
-	return false;
-}
-var getShortcode = function (url) {
-	if (url.indexOf("instagram.com") === -1) {
-		return '';
-	}
-	if (url.indexOf("https://app-sorteos.com/p/") === -1 && url.indexOf("https://app-sorteos.com/tv/") === -1) {
-		return '';
-	}
-	if (url.indexOf("https://app-sorteos.com/p/") > -1 ) {
-	    var cont = url.indexOf("https://app-sorteos.com/p/")+3;
-	}
-	if (url.indexOf("https://app-sorteos.com/tv/") > -1 ) {
-	    var cont = url.indexOf("https://app-sorteos.com/tv/")+4;
-	}
-	shortcode = url.substr(cont);
-	if (shortcode.indexOf("https://app-sorteos.com/") > -1) {
-	    shortcode = shortcode.substr(0, shortcode.indexOf("https://app-sorteos.com/"));
-	}
-
-	return shortcode;
-}
-var parseResponse = function (data) {
-    var ow = data.owner;
-    var cc = '';
-    var ti = '';
-    var th = '';
-
-    if (data.edge_media_to_parent_comment && data.edge_media_to_parent_comment.count) {
-        cc = parseInt(data.edge_media_to_parent_comment.count);
-    }
-
-    if (data.display_url) {
-        th = data.display_url;
-    }
-
-    if (data.edge_media_to_caption &&
-    	data.edge_media_to_caption.edges &&
-    	data.edge_media_to_caption.edges[0] &&
-    	data.edge_media_to_caption.edges[0]['node'] &&
-    	data.edge_media_to_caption.edges[0]['node']['text']) {
-        ti = data.edge_media_to_caption.edges[0]['node']['text'];
-    }
-
-    ow.followers = 0;
-
-    return {
-        'comments_count': cc,
-        'comments_disabled': data.comments_disabled,
-        'owner': ow,
-        'media_id': data.id + '_' + ow.id,
-        'shortcode': data.shortcode,
-        'title': ti,
-        'thumb': th,
-        'url': 'https://www.instagram.com/p/' + data.shortcode + '/'
-    };
-}
-</script> </div>
-</div>
-</div>
 <section style="background-color: #f5fafd; padding-top: 100px; padding-bottom: 80px;">
-<div class="container">
-<div class="row justify-content-center">
-<div class="col-12 text-center">
-<h1 class="mb-2 text-secondary">More apps</h1>
-<p class="mb-5 lead text-secondary">All the apps you need to pick random winners from everywhere!</p>
-</div>
-<div class="col-12 mt-4">
-<div class="row justify-content-center">
-<div class="col-12 col-md-4 compact sweepstake">
-<a href="https://app-sorteos.com/en/apps/instagram-comment-picker">
-<div class="card">
-<div class="card-body">
-<div class="icon icon-instagram">
-<i class="fab fa-instagram"></i>
-</div>
-<div class="content">
-<h2>Instagram Giveaway</h2>
-<p>Pick a random winner from your photos</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="col-12 col-md-4 compact sweepstake">
-<a href="https://app-sorteos.com/en/apps/facebook-comment-picker">
-<div class="card">
-<div class="card-body">
-<div class="icon icon-facebook">
-<i class="fab fa-facebook"></i>
-</div>
-<div class="content">
-<h2>Facebook Giveaway</h2>
-<p>Pick a random winner from your posts</p>
-</div>
-<div class="tag">Beta</div>
-</div>
-</div>
-</a>
-</div>
-<div class="col-12 col-md-4 compact sweepstake">
-<a href="https://app-sorteos.com/en/apps/pick-random-name-winner">
-<div class="card">
-<div class="card-body">
-<div class="icon icon-random">
-<i class="fas fa-list-ol"></i>
-</div>
-<div class="content">
-<h2>Random Name Winner</h2>
-<p>Pick a random winner from a list</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="col-12 col-md-4 compact sweepstake">
-<a href="https://app-sorteos.com/en/apps/wheel-decide">
-<div class="card">
-<div class="card-body">
-<div class="icon icon-wheel">
-<i class="fas fa-chart-pie"></i>
-</div>
-<div class="content">
-<h2>Wheel Decide</h2>
-<p>Spin the wheel and get a winner!</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="col-12 col-md-4 compact sweepstake">
-<a href="https://app-sorteos.com/en/apps/twitter-giveaway">
-<div class="card">
-<div class="card-body">
-<div class="icon icon-twitter">
-<i class="fab fa-twitter"></i>
-</div>
-<div class="content">
-<h2>Twitter Giveaway</h2>
-<p>Pick a random winner from your tweets and followers</p>
-</div>
-<div class="tag">New</div>
-</div>
-</div>
-</a>
-</div>
-<div class="col-12 col-md-4 compact sweepstake">
-<a href="https://app-sorteos.com/en/apps/online-roll-dice">
-<div class="card">
-<div class="card-body">
-<div class="icon icon-dice">
-<i class="fas fa-dice"></i>
-</div>
-<div class="content">
-<h2>Roll Dice</h2>
-<p>Online dice roller simulator</p>
-</div>
-<div class="tag">New</div>
-</div>
-</div>
-</a>
-</div>
-<div class="col-12 col-md-4 compact sweepstake">
-<a href="https://app-sorteos.com/en/apps/youtube-giveaway">
-<div class="card">
-<div class="card-body">
-<div class="icon icon-youtube">
-<i class="fab fa-youtube"></i>
-</div>
-<div class="content">
-<h2>Youtube Giveaway</h2>
-<p>Pick a random winner from your videos</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+            <h1 class="mb-2 text-secondary">More apps</h1>
+            <p class="mb-5 lead text-secondary">All the apps you need to pick random winners from everywhere!</p>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-4 compact sweepstake">
+                        <a href="https://app-sorteos.com/en/apps/instagram-comment-picker">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="icon icon-instagram">
+                                    <i class="fab fa-instagram"></i>
+                                    </div>
+                                    <div class="content">
+                                    <h2>Instagram Giveaway</h2>
+                                    <p>Pick a random winner from your photos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 compact sweepstake">
+                        <a href="https://app-sorteos.com/en/apps/facebook-comment-picker">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="icon icon-facebook">
+                                    <i class="fab fa-facebook"></i>
+                                    </div>
+                                    <div class="content">
+                                    <h2>Facebook Giveaway</h2>
+                                    <p>Pick a random winner from your posts</p>
+                                    </div>
+                                    <div class="tag">Beta</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 compact sweepstake">
+                        <a href="https://app-sorteos.com/en/apps/pick-random-name-winner">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="icon icon-random">
+                                    <i class="fas fa-list-ol"></i>
+                                    </div>
+                                    <div class="content">
+                                    <h2>Random Name Winner</h2>
+                                    <p>Pick a random winner from a list</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 compact sweepstake">
+                        <a href="https://app-sorteos.com/en/apps/wheel-decide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="icon icon-wheel">
+                                    <i class="fas fa-chart-pie"></i>
+                                    </div>
+                                    <div class="content">
+                                    <h2>Wheel Decide</h2>
+                                    <p>Spin the wheel and get a winner!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 compact sweepstake">
+                        <a href="https://app-sorteos.com/en/apps/twitter-giveaway">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="icon icon-twitter">
+                                    <i class="fab fa-twitter"></i>
+                                    </div>
+                                    <div class="content">
+                                    <h2>Twitter Giveaway</h2>
+                                    <p>Pick a random winner from your tweets and followers</p>
+                                    </div>
+                                    <div class="tag">New</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 compact sweepstake">
+                        <a href="https://app-sorteos.com/en/apps/online-roll-dice">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="icon icon-dice">
+                                    <i class="fas fa-dice"></i>
+                                    </div>
+                                    <div class="content">
+                                    <h2>Roll Dice</h2>
+                                    <p>Online dice roller simulator</p>
+                                    </div>
+                                    <div class="tag">New</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 compact sweepstake">
+                        <a href="https://app-sorteos.com/en/apps/youtube-giveaway">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="icon icon-youtube">
+                                    <i class="fab fa-youtube"></i>
+                                    </div>
+                                    <div class="content">
+                                    <h2>Youtube Giveaway</h2>
+                                    <p>Pick a random winner from your videos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <div class="container mt-5">
@@ -565,77 +485,9 @@ mixpanel.init("d4277a45cee115114888f6e17552af75");</script>
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <script async type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59209fdf8bb355e5"></script>
-<div class="footer-slope slope" style="background-color: #f7f7f7; height: 50px; margin-top: 100px;"></div>
-<footer class="" style="background-color: #f7f7f7;">
-<div class="container pt-5 pb-5">
-<div class="row">
-<div class="col-12 col-md-5">
-<img src="https://app-sorteos.com/img/logo2.png" class="mb-3" alt="" width="180">
-<p>Create free Instagram and Youtube Giveaways and contents, online and free. Pick a random winner from your Instagram photos and Youtube videos.</p>
-<p>Create free Instagram, Youtube and "Random Name" Giveaways and Contents.</p>
-<p>Instagram random comment Picker</p>
-</div>
-<div class="col-12 col-md-4">
-<h5>Help</h5>
-<ul class="list-unstyled mt-3">
-<li>
-<a href="https://app-sorteos.com/en/faqs">Faqs</a>
-</li>
-<li>
-<a href="https://app-sorteos.com/en/blog/how-to-create-instagram-giveawys-and-contest">How to create Instagram Giveaways</a>
-</li>
-<li>
-<a href="https://app-sorteos.com/en/blog/find-your-instagram-photo-url">Find your Instagram picture URL</a>
-</li>
-<li>
-<a href="https://app-sorteos.com/en/blog/filter-instagram-giveaway-comments">How to filter Instagram Giveaways comments</a>
-</li>
-</ul>
-<div class="mt-4">
-<h5>More</h5>
-<ul class="list-unstyled mt-2">
-<li>
-<a target="_blank" href="https://app-sorteos.com/en/giveaways-and-contest-certification">Certification</a>
-</li>
-<li>
-<a target="_blank" href="https://app-sorteos.com/privacy-policy">Privacy Policy</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-12 col-md-3">
-<h5>Apps</h5>
-<ul class="list-unstyled mt-2">
-<li>
-<a href="https://app-sorteos.com/en/apps/instagram-comment-picker">Instagram Giveaway</a>
-</li>
-<li>
-<a href="https://app-sorteos.com/en/apps/facebook-comment-picker">Facebook Giveaway</a>
-</li>
-<li>
-<a href="https://app-sorteos.com/en/apps/online-roll-dice">Roll Dice</a>
-</li>
-<li>
-<a href="https://app-sorteos.com/en/apps/youtube-giveaway">Youtube Giveaway</a>
-</li>
-<li>
-<a href="https://app-sorteos.com/en/apps/pick-random-name-winner">Random Name Winner</a>
-</li>
-<li>
-<a href="https://app-sorteos.com/en/apps/wheel-decide">Wheel Decide</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="row justify-content-center">
-<div class="text-center social-links mt-4">
-<a target="_blank" href="https://www.instagram.com/app_sorteos_ok/"><i class="text-brand fab fa-instagram"></i></a>
-<a target="_blank" href="https://www.facebook.com/pg/App-Sorteos-1104332809735550"><i class="text-brand fab fa-facebook-square"></i></a>
-<a target="_blank" href="https://twitter.com/app_sorteos_ok"><i class="text-brand fab fa-twitter"></i></a>
-</div>
-</div>
-</div>
-</footer>
+
+<?php $this->load->view('modul template/footer'); ?>
+
 <style>
 	footer h5 { font-size: 16px; }
 	footer p { font-size: 13px; color: #999; }
