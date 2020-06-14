@@ -1,21 +1,21 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Dashboard extends CI_Controller
+class Contact extends CI_Controller
 {
     function __construct()
 	{
 		parent::__construct();
-		$this->load->model('M_dashboard');
+		$this->load->model('M_contact');
 		
     }
     public function index()
 	{
 		$data = array(
-			'title' => 'Dashboard',
-			'isi'		 => 'dashboard'
+			'title' => 'Contact',
+			'isi'		 => 'contact'
 		);
-		$this->load->view('dashboard', $data );
+		$this->load->view('contact', $data );
 
 		
 	}

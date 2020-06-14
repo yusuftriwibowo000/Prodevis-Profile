@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+app-sorteos.com	TRUE	/	FALSE	1999999999	CAKEPHP	d4pqrv7jdjqkfmasu5k9vp2os0
+.app-sorteos.com	TRUE	/	FALSE	1999999999	__cfduid	d61c1999692476713be94d958abd73d111591711647
+app-sorteos.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+

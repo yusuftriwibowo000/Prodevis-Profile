@@ -1,21 +1,21 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Dashboard extends CI_Controller
+class Instagram extends CI_Controller
 {
     function __construct()
 	{
 		parent::__construct();
-		$this->load->model('M_dashboard');
+		$this->load->model('M_instagram');
 		
     }
     public function index()
 	{
 		$data = array(
-			'title' => 'Dashboard',
-			'isi'		 => 'dashboard'
+			'title' => 'Instagram',
+			'isi'		 => 'instagram'
 		);
-		$this->load->view('dashboard', $data );
+		$this->load->view('instagram', $data );
 
 		
 	}
