@@ -3,8 +3,8 @@
 <title>AppSorteos &ndash; Free Instagram Comment Picker and Giveaways</title>
 <meta name="description" content="Create free Giveaways from Instagram, Facebook, Youtube. Pick a random comment winner from your photos and videos.">
 <meta name="keywords" content="giveaway, instagram comment picker, instagram contests, free instagram giveaway, facebook comment picker, random comment picker, random winners">
-<link href="build/Ulogo2.png" type="image/x-icon" rel="icon" />
-<link href="build/Ulogo2.png" type="image/x-icon" rel="shortcut icon" />
+<link href="build/isologo.ico" type="image/x-icon" rel="icon" />
+<link href="build/isologo.ico" type="image/x-icon" rel="shortcut icon" />
 <meta name="google-site-verification" content="anRG_D8WAq_EemBNsdLEx2FT-RSmW7IJUzOt8QNWYM4" />
 
 <link rel="stylesheet" href="vendors/use.fontawesome.com/releases/v5.7.0/css/all.css">

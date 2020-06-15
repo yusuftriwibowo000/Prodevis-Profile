@@ -35,7 +35,7 @@ $config['base_url'] = 'http://localhost/Prodevis-Profile/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = 'dashboard.php';
 
 /*
 |--------------------------------------------------------------------------

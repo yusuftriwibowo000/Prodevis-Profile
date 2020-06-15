@@ -11,11 +11,12 @@ class Dashboard extends CI_Controller
     }
     public function index()
 	{
+		// $this->M_login->keamananLogout();
+		
 		$data = array(
-			'title' => 'Dashboard',
-			'isi'		 => 'dashboard'
+			'title' => 'Dashboard'
 		);
-		$this->load->view('dashboard', $data );
+		$this->load->view('dashboard');
 
 		
 	}
