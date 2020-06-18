@@ -327,7 +327,7 @@ padding: 6px 10px;
             <div class="col-12 mt-4">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-4 compact sweepstake">
-                        <a href="instagram">
+                        <a href="https://app-sorteos.com/en/apps/instagram-comment-picker">
                             <div class="card">
                                 <div class="card-body">
                                     <div class="icon icon-instagram">
@@ -342,23 +342,7 @@ padding: 6px 10px;
                         </a>
                     </div>
                     <div class="col-12 col-md-4 compact sweepstake">
-                        <a >
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="icon icon-youtube">
-                                    <i class="fab fa-youtube"></i>
-                                    </div>
-                                    <div class="content">
-                                    <h2>Youtube Giveaway</h2>
-                                    <p>Pick a random winner from your videos</p>
-                                    </div>
-                                    <div class="tag">COMING SOON</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-12 col-md-4 compact sweepstake">
-                        <a >
+                        <a href="https://app-sorteos.com/en/apps/facebook-comment-picker">
                             <div class="card">
                                 <div class="card-body">
                                     <div class="icon icon-facebook">
@@ -368,7 +352,7 @@ padding: 6px 10px;
                                     <h2>Facebook Giveaway</h2>
                                     <p>Pick a random winner from your posts</p>
                                     </div>
-                                    <div class="tag">COMING SOON</div>
+                                    <div class="tag">Beta</div>
                                 </div>
                             </div>
                         </a>
@@ -403,7 +387,7 @@ padding: 6px 10px;
                             </div>
                         </a>
                     </div>
-                    <!-- <div class="col-12 col-md-4 compact sweepstake">
+                    <div class="col-12 col-md-4 compact sweepstake">
                         <a href="https://app-sorteos.com/en/apps/twitter-giveaway">
                             <div class="card">
                                 <div class="card-body">
@@ -418,7 +402,7 @@ padding: 6px 10px;
                                 </div>
                             </div>
                         </a>
-                    </div> -->
+                    </div>
                     <div class="col-12 col-md-4 compact sweepstake">
                         <a href="https://app-sorteos.com/en/apps/online-roll-dice">
                             <div class="card">
@@ -447,10 +431,10 @@ padding: 6px 10px;
                                     <p>Pick a random winner from your videos</p>
                                     </div>
                                 </div>
-                                                                  </div>
+                            </div>
                         </a>
                     </div>
-                         </div>
+                </div>
             </div>
         </div>
     </div>

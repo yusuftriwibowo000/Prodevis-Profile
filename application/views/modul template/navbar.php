@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
-    <a class="navbar-brand" href="<?= base_url('en'); ?>">
-        <img src="https://app-sorteos.com/img/logo2.png" alt="" width="160">
+    <a class="navbar-brand" href="<?= base_url(); ?>">
+        <img src="build/img/Ulogonav.png" alt="" width="60" height="50">
     </a>
     <button class="navbar-toggler" class="navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -13,17 +13,17 @@
                 </a>
             </li>
             <li class="nav-item mr-4">
-                <a href="https://app-sorteos.com/en/faqs" class="nav-link">
+                <a href="<?= base_url('Help'); ?>" class="nav-link">
                 <strong>Help</strong>
                 </a>
             </li>
             <li class="nav-item mr-4">
-                <a href="https://app-sorteos.com/en/support" class="nav-link">
+                <a href="<?= base_url('Contact'); ?>" class="nav-link">
                 <strong>Contact</strong>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="https://app-sorteos.com/en/apps" class="btn btn-md btn-primary my-2 my-sm-0 btn-success btn-bold">
+                <a href="<?= base_url('Apps'); ?>" class="btn btn-md btn-primary my-2 my-sm-0 btn-success btn-bold">
                 <i class="fas fa-plus mr-2"></i>Create Giveaway 
                 </a>
             </li>
