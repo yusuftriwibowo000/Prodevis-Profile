@@ -431,10 +431,10 @@ padding: 6px 10px;
                                     <p>Pick a random winner from your videos</p>
                                     </div>
                                 </div>
-                            </div>
+                                                                  </div>
                         </a>
                     </div>
-                </div>
+                         </div>
             </div>
         </div>
     </div>

@@ -2,13 +2,13 @@
     <a class="navbar-brand" href="<?= base_url('en'); ?>">
         <img src="https://app-sorteos.com/img/logo2.png" alt="" width="160">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" class="navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto align-items-center">
             <li class="nav-item mr-4">
-                <a href="https://app-sorteos.com/en/pricing" class="nav-link">
+                <a href="<?= base_url('Pricing'); ?>" class="nav-link">
                 <strong>Pricing</strong>
                 </a>
             </li>
