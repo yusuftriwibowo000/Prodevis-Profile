@@ -86,40 +86,42 @@
 			<div class="row justify-content-center">
 				<div class="col-12 col-md-6 mt-5">
 					<div class="blog-post">
-						<h2 class="blog-post__title">Contact</h2>
-						<form onsubmit="return submitCForm();" method="POST" action="#">
-							<div class="form-group">
-								<label>Name</label>
-								<input name="name" required="" type="text" class="form-control form-control-lg form-control-inverse">
+						<h2 class="blog-post__title">Register</h2>
+						<form method="POST" action="<?= base_url('Auth/register');?>">
+							<div class="row my-3">
+							<div class="col-md-8 offset-md-2 mb-4">
+								<h5 class="text-center">
+									<label for="username">Username* :</label>
+								</h5>
+								<input type="text" required class="form-control simpli-border shadow" id="username" name="username" value="<?= set_value('username')?>">
+								<?= form_error('username', '<medium class = "text-danger pl-3">', '</medium>'); ?>
 							</div>
-							<div class="form-group">
-								<label>Email address</label>
-								<input name="email" required="" type="email" class="form-control form-control-lg form-control-inverse">
+							<div class="col-md-8 offset-md-2 mb-4">
+								<h5 class="text-center">
+									<label for="email" class="mb-0">E-Mail Address* :</label>
+								</h5>
+								<input type="email" required class="form-control simpli-border shadow " id="email"name="email" value="<?= set_value('email')?>">
+								<?= form_error('email', '<medium class = "text-danger pl-3">', '</medium>'); ?>
 							</div>
-							<div class="form-group">
-								<label>Subject</label>
-								<select onchange="onChange(event)" name="subject" required=""
-									class="form-control form-control-lg form-control-inverse">
-									<option selected></option>
-									<option value="question">Contact / Questions</option>
-									<option value="invoice">Invoice Request</option>
-									<option value="sales">Sales</option>
-									<option value="app">Giveway / App Issues</option>
-									<option value="payment">Payment Issues</option>
-								</select>
+							<div class="col-md-6 mb-4">
+								<h5 class="text-center">
+									<label for="password">Password* :</label>
+								</h5>
+								<input type="password" required class="form-control simpli-border shadow" id="password" name="password">
+								<?= form_error('password', '<medium class = "text-danger pl-3">', '</medium>'); ?>
 							</div>
-							<div class="form-group">
-								<label>Message</label>
-								<textarea name="message" required class="form-control form-control-lg form-control-inverse" id=""
-									cols="30" rows="6"></textarea>
+							<div class="col-md-6 mb-4">
+								<h5 class="text-center"><label for="password">Password Repeat* :</label>
+								</h5>
+								<input type="password" required class="form-control simpli-border shadow" id="password2" name="password2" value="">
+								<?= form_error('password2', '<medium class = "text-danger pl-3">', '</medium>'); ?>
 							</div>
-							<div class="alert alert-warning">
-								Please include the IG Post URL if you are having payment or app issues, or requesting an Invoice </div>
-							<input type="hidden" name="is_form_valid" value="1">
-							<div class="g-recaptcha" data-sitekey="6Ld2MeUUAAAAAD4EslvxXqsiZXK_m8auBIRhSleO"></div>
-							<div class="d-flex justify-content-end">
-								<button type="submit" class="btn btn-lg btn-success" style="font-size: 15px;">Send</button>
+							<div class="col-md-12 text-center">
+								<button type="submit" class="primary-btn my-3">
+									Register Now <span class="lnr lnr-arrow-right align-middle"></span>
+								</button>
 							</div>
+						</div>
 						</form>
 					</div>
 				</div>
