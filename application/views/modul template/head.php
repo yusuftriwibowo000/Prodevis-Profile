@@ -34,4 +34,10 @@
 <meta property="twitter:description" content="Create free Giveaways from Instagram, Facebook, Youtube. Pick a random comment winner from your photos and videos.">
 <meta property="twitter:image" content="https://app-sorteos.com/img/sharing/en_landing.jpg">
 <script src="https://app-sorteos.com/js/adsbygoogle.js"></script>
+
+
+<link rel="stylesheet" href="vendors/theme/css/linearicons.min.css">
+
+<link rel="stylesheet" href="vendors/theme/css/mainb6f5.css?v=10">
+<link rel="stylesheet" href="vendors/theme/stylef833.css?v=1592534927">
 </head>

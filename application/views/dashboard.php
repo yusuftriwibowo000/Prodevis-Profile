@@ -435,21 +435,7 @@ padding: 6px 10px;
                             </div>
                         </a>
                     </div>
-                    <div class="col-12 col-md-4 compact sweepstake">
-                        <a href="https://app-sorteos.com/en/apps/youtube-giveaway">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="icon icon-youtube">
-                                    <i class="fab fa-youtube"></i>
-                                    </div>
-                                    <div class="content">
-                                    <h2>Youtube Giveaway</h2>
-                                    <p>Pick a random winner from your videos</p>
-                                    </div>
-                                </div>
-                                                                  </div>
-                        </a>
-                    </div>
+                    
                          </div>
             </div>
         </div>
@@ -719,6 +705,9 @@ Continue to Checkout </a>
 </div>
 </div>
 </div>
+
+
+
 <style>
 .pay-content {
     max-width: 290px;
