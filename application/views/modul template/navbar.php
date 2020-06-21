@@ -34,23 +34,24 @@
 					<i class="fas fa-plus mr-2"></i>Create Giveaway
 				</a>
 			</li>
-			<li class="nav-item">
+			<?php if(isset($_SESSION['username'])) { ?>
+			<li class="nav-item dropdown ml-2">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                <strong style="text-transform: uppercase;"><?= $_SESSION['username'] ;?></strong>
+                </a>
+                <div class="dropdown-menu dropdown-menu-lang" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="">Change Password</a>
+					<a class="dropdown-item" href="<?= base_url('Auth/logout'); ?>">Log Out</a>
+                </div>
+            </li>
+			<?php } else { ?>
+				<li class="nav-item">
 				<a href="#" class="nav-link" data-toggle="modal" data-target="#loginModal"
 					class="lnr lnr-user text-light">Login
 					<span class="lnr lnr-user text-light"></span>
 				</a>
 			</li>
-			<!-- <li class="nav-item dropdown ml-2">
-                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-                <strong style="text-transform: uppercase;">en</strong>
-                </a>
-                <div class="dropdown-menu dropdown-menu-lang" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="">English</a>
-                    <a class="dropdown-item" href="">Español</a>
-                    <a class="dropdown-item" href="https://app-sorteos.com/fr">Francais</a>
-                    <a class="dropdown-item" href="https://app-sorteos.com/pt">Português</a>
-                </div>
-            </li> -->
+			<?php } ?>
 		</ul>
 	</div>
 </nav>

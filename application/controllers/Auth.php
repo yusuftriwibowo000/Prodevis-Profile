@@ -29,8 +29,9 @@ class Auth extends CI_Controller
                 $data = [
                     'username' => $user['username'],
                 ];
-                // $this->session->set_userdata($data);
-                redirect('User/Dashboard');
+                $this->session->set_userdata($data);
+                $this->session->set_flashdata('success', 'Login Success') ;
+                redirect('Dashboard');
             } else {
                 $this->session->set_flashdata('alert', 'Password Incorrect') ;
                 redirect('Dashboard');
@@ -64,5 +65,8 @@ class Auth extends CI_Controller
 		    redirect('Dashboard');    
         }
     }
-
+    public function logout(){
+        $this->session->unset_userdata('username');
+        redirect('Auth');
+    }
 }
