@@ -11,8 +11,6 @@ class Help extends CI_Controller
     }
     public function index()
 	{
-	
-		
 		$data = array(
 			'title' => 'Help',
 			'isi'	=> 'help'

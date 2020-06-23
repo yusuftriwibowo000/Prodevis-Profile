@@ -11,7 +11,7 @@ class Pricing extends CI_Controller
     }
     public function index()
 	{
-		
+		// $this->M_login->keamananLogout();
 		
 		$data = array(
 			'title' => 'Pricing',
