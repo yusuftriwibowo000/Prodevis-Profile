@@ -30,8 +30,8 @@
                                     <form class="user" method="post" action="<?= base_url('admin/auth'); ?>">
                                         <?= $this->session->flashdata('message'); ?>
                                         <div class="form-group">
-                                            <input required type="text" class="form-control form-control-user" id="username" placeholder="Enter Username" name="username" value="<?= set_value('username'); ?>">
-                                            <?= form_error('username', '<small class = "text-danger pl-3">', '</small>'); ?>
+                                            <input required type="text" class="form-control form-control-user" id="useradmin" placeholder="Enter Username" name="useradmin" value="<?= set_value('useradmin'); ?>">
+                                            <?= form_error('useradmin', '<small class = "text-danger pl-3">', '</small>'); ?>
                                         </div>
                                         <div class="form-group">
                                             <input required type="password" class="form-control form-control-user" id="password" placeholder="Password" name="password">

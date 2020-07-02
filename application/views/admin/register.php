@@ -6,12 +6,12 @@
 		<form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left"
 			href="<?= base_url("Admin/Auth/register"); ?>" method="post">
 			<div class="form-group">
-				<label for="username" class="control-label col-md col-sm col-xs-12">Username</label>
+				<label for="useradmin" class="control-label col-md col-sm col-xs-12">Username</label>
 				<div class="col-md col-sm col-xs-12">
-					<input class="form-control" placeholder="Enter Username" name="username"
-						id="username" type="text">
+					<input class="form-control" placeholder="Enter Username" name="useradmin"
+						id="useradmin" type="text">
 				</div>
-				<?= form_error('username', '<small class = "text-danger pl-3">', '</small>'); ?>
+				<?= form_error('useradmin', '<small class = "text-danger pl-3">', '</small>'); ?>
 			</div>
 			<div class="form-group">
 				<label for="password" class="control-label col-md col-sm col-xs-12">Password]</label>

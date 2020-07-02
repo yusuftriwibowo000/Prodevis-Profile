@@ -12,7 +12,7 @@ class Auth_password extends CI_Controller
         $data = array(
             'title' => 'Ganti Password',
             'content' => 'admin/auth_password',
-            'user'  => $this->db->get_where('tb_login', ['username' => $this->session->userdata('username')])->row_array(),
+            'user'  => $this->db->get_where('tb_login', ['useradmin' => $this->session->userdata('useradmin')])->row_array(),
         );
 
         $this->form_validation->set_rules('password_lama', 'Password lama', 'required|trim', array('required' => 'Password Lama belum diisi'));
@@ -34,7 +34,7 @@ class Auth_password extends CI_Controller
                 } else {
                     $passwordHash = password_hash($passwordBaru, PASSWORD_DEFAULT);
                     $this->db->set('password', $passwordHash);
-                    $this->db->where('username', $this->session->userdata('username'));
+                    $this->db->where('useradmin', $this->session->userdata('useradmin'));
                     $this->db->update('tb_login');
                     $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Password Berhasil Diubah</div>');
                     redirect('Admin/Auth_password');

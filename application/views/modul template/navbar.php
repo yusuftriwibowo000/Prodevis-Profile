@@ -40,7 +40,7 @@
                 <strong style="text-transform: uppercase;"><?= $_SESSION['username'] ;?></strong>
                 </a>
                 <div class="dropdown-menu dropdown-menu-lang" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="">Change Password</a>
+                    <a class="dropdown-item" href="<?= base_url('Auth_password'); ?>">Change Password</a>
 					<a class="dropdown-item" href="<?= base_url('Auth/logout'); ?>">Log Out</a>
                 </div>
             </li>
@@ -99,7 +99,7 @@
 					</form>
 					<a href="<?= base_url('Auth/register') ?>" class="primary-btn border-0 d-block m-1 p-2">Register<span class="lnr lnr-chevron-right"></span>
 					</a>
-					<a href="en/forget-my-password.html" rel="nofollow" title="Forget Password"
+					<a href="<?= base_url('Auth/forget_password') ?>" rel="nofollow" title="Forget Password"
 						class="primary-btn border-0 d-block m-1 p-2">Forget Password<span class="lnr lnr-lock"></span>
 					</a>
 				</div>
