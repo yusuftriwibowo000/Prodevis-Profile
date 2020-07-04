@@ -388,7 +388,7 @@ padding: 6px 10px;
 								</a>
 							</div>
 							<div class="col-12 col-md-4 compact sweepstake">
-								<a href="https://app-sorteos.com/en/apps/pick-random-name-winner">
+								<a href="<?= base_url("Pick_random"); ?>">
 									<div class="card">
 										<div class="card-body">
 											<div class="icon icon-random">
@@ -403,7 +403,7 @@ padding: 6px 10px;
 								</a>
 							</div>
 							<div class="col-12 col-md-4 compact sweepstake">
-								<a href="https://app-sorteos.com/en/apps/wheel-decide">
+								<a href="<?= base_url("Wheel_decide"); ?>">
 									<div class="card">
 										<div class="card-body">
 											<div class="icon icon-wheel">
@@ -434,7 +434,7 @@ padding: 6px 10px;
                         </a>
                     </div> -->
 							<div class="col-12 col-md-4 compact sweepstake">
-								<a href="https://app-sorteos.com/en/apps/online-roll-dice">
+								<a href="<?= base_url("Roll_dice"); ?>">
 									<div class="card">
 										<div class="card-body">
 											<div class="icon icon-dice">

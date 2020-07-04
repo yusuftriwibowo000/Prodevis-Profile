@@ -1,21 +1,21 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Youtube extends CI_Controller
+class Roll_dice extends CI_Controller
 {
     function __construct()
 	{
 		parent::__construct();
-		$this->load->model('M_youtube');
+		
 		
     }
     public function index()
 	{
 		$data = array(
-			'title' => 'Youtube',
-			'isi'	=> 'youtube_giveaway'
+			'title' => 'Roll Dice',
+			'isi'	=> 'roll_dice'
 		);
-		$this->load->view('youtube_giveaway', $data );
+		$this->load->view('roll_dice', $data );
 
 		
 	}

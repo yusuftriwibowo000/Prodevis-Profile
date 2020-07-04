@@ -318,7 +318,6 @@
 				</script>
 			</div>
 		</div>
-		<div class="jumbotron-slope slope gradient" style="height: 35px;"></div>
 		<div class="text-center mt-4">
 
 			<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6091836725090448"
@@ -331,50 +330,41 @@
 		<script type='text/javascript'
 			src='../../../platform-api.sharethis.com/js/sharethis.js#property=5ea4443da10c1200152b4814&product=sticky-share-buttons&cms=sop'
 			async='async'></script>
-		<div class="container">
-			<div class="row justify-content-center">
+			<div class="container">
+				<div class="row justify-content-center">
 				<div class="col-12 col-md-10 col-lg-8 mt-5">
-					<div class="blog-post circles-list">
-						<h2 class="blog-post__title">How "Instagram Giveaway Picker" works</h2>
-						<p class="mb-4">Instagram Comment Picker is a free and online tool where you can <strong>Pick a
-								Winner</strong> for your Instagram giveaways, raffles, contest or sweepstake.</p>
-						<p>The <strong>Instagram Comment Picker</strong> tool will allow you to pick one or multiples
-							winners from all your picture or video comments. We also support igTV posts.</p>
-						<p>You don't need to copy one by one all your comments any more! We do it for you! At the end,
-							you will get a public certificate with the results, 100% free.</p>
-						<p>Now, you can use our <strong>random comment picker</strong> with multiples posts and
-							accounts. Read more about <a
-								href="../blog/instagram-multi-accounts-giveaways.html">Instagram MultiPost Giveaway</a>.
-						</p>
-					</div>
-					<div class="blog-post circles-list">
-						<h2 class="blog-post__title">How to find Instagram Post URL</h2>
-						<p class="mb-4">Follow the steps to find the right Instagram post url via mobile or desktop. It
-							works for Photos, Videos and IgTV posts.</p>
-						<h4>From the computer or laptop</h4>
-						<ol>
-							<li>Go to <a href="http://instagram.com/">instagram.com</a> in your web browser and login
-							</li>
-							<li>Go to the post by clicking the date or time at the bottom of a post (like "2 days ago").
-								Or go to your profile overview page and click the photo you want.</li>
-							<li>Copy the url from the browser address bar at the top</li>
-							<li>Paste the URL in our <a href="instagram-giveaway.html">Instagram Comment Picker App</a>,
-								or here in this page.</li>
-						</ol>
-						<h4 class="mt-5">From the smartphone, Iphone or Android</h4>
-						<ol class="">
-							<li>Open the mobile Instagram app</li>
-							<li>Go to the profile overview page and open the post</li>
-							<li>Click the three dots at the top right corner</li>
-							<li>Click on "Copy Link" at the bottom</li>
-							<li>Paste the URL in our <a href="instagram-giveaway.html">Instagram Comment Picker App</a>,
-								or here in this page.</li>
-						</ol>
-					</div>
+				<div class="blog-post circles-list">
+				<h2 class="blog-post__title">What is Youtube Random Comment picker?</h2>
+				<p>Youtube Random Comment Picker is a simple and free tool to easily <strong>pick a winner from Youtube</strong> comments. Use our tool for yours giveaways, sweepstakes, promotions and contests.</p>
+				<p>By entering the URL of the Youtube video <strong>we will retrieve all the comments</strong>. Then, you need to enter the number of winners, and you can also apply filters to remove duplicate names from comments and more options.</p>
+				<p>Once you are done, just click on "Start" button and wait for the results. We save the results on a public certificate, you can share with your followers. Ceritificates are totally free.</p>
+				</div>
+				</div>
+				</div>
+				</div>
+				<script type='text/javascript' src='../../../platform-api.sharethis.com/js/sharethis.js#property=5ea4443da10c1200152b4814&product=sticky-share-buttons&cms=sop' async='async'></script>
+				<div class="modal" tabindex="-1" role="dialog" id="errorModal">
+				<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title">Oops!</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+				</div>
+				<div class="modal-body text-center">
+				<p>The video URL is invalid. Please check your video URL looks like this</p>
+				<p><strong>https://www.youtube.com/watch?v=I_JZT9xoG_c</strong></p>
+				</div>
+				<div class="modal-footer">
+				<button type="button" class="btn btn-primary py-2 px-4 btn-bold" data-dismiss="modal">Ok, try again</button>
+				</div>
+				</div>
+				</div>
 				</div>
 			</div>
-		</div>
 	</div>
+	
 	<script type="text/javascript">
 		(function (c, a) {
 			if (!a.__SV) {

@@ -27,7 +27,11 @@
     <i class="fas fa-fw fa-users"></i>
     <span>Package</span></a>
 </li>
-
+<li class="nav-item <?php if($title == "Message") {echo 'active';} ?>">
+  <a class="nav-link" href="<?= base_url("Admin/Message"); ?>">
+    <i class="fas fa-fw fa-envelope"></i>
+    <span>Message</span></a>
+</li>
 
 
 <!-- Divider -->

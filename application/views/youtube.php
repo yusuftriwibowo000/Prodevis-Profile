@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xml:lang="en">
 
-<!-- Mirrored from app-sorteos.com/en by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 May 2020 12:56:53 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
 	<?php $this->load->view('modul template/head'); ?>

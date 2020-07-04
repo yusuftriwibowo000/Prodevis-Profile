@@ -96,7 +96,7 @@
 							</a>
 						</div>
 						<div class="col-12 col-md-12 sweepstake">
-							<a href="youtube">
+						
 								<div class="card">
 									<div class="card-body">
 										<div class="icon icon-youtube">
@@ -109,10 +109,10 @@
 										<div class="tag">Coming Soon</div>
 									</div>
 								</div>
-							</a>
+						
 						</div>
 						<div class="col-12 col-md-12 sweepstake">
-							<a href="apps/facebook-comment-picker.html">
+							
 								<div class="card">
 									<div class="card-body">
 										<div class="icon icon-facebook">
@@ -125,10 +125,10 @@
 										<div class="tag">Coming Soon</div>
 									</div>
 								</div>
-							</a>
+							
 						</div>
 						<div class="col-12 col-md-12 sweepstake">
-							<a href="apps/pick-random-name-winner.html">
+							<a href="<?= base_url("Pick_random"); ?>">
 								<div class="card">
 									<div class="card-body">
 										<div class="icon icon-random">
@@ -143,7 +143,7 @@
 							</a>
 						</div>
 						<div class="col-12 col-md-12 sweepstake">
-							<a href="apps/wheel-decide.html">
+							<a href="<?= base_url("Wheel_decide"); ?>">
 								<div class="card">
 									<div class="card-body">
 										<div class="icon icon-wheel">
@@ -174,7 +174,7 @@
                         </a>
                     </div> -->
 						<div class="col-12 col-md-12 sweepstake">
-							<a href="apps/online-roll-dice.html">
+						<a href="<?= base_url("Roll_dice"); ?>">
 								<div class="card">
 									<div class="card-body">
 										<div class="icon icon-dice">

@@ -87,18 +87,20 @@
 				<div class="col-12 col-md-6 mt-5">
 					<div class="blog-post">
 						<h2 class="blog-post__title">Contact</h2>
-						<form onsubmit="return submitCForm();" method="POST" action="#">
+						<form  method="post" action="<?= base_url("Contact/add"); ?>">
 							<div class="form-group">
 								<label>Name</label>
-								<input name="name" required="" type="text" class="form-control form-control-lg form-control-inverse">
+								<input id="name" name="name" value="<?= set_value('name')?>" required="" type="text" class="form-control form-control-lg form-control-inverse">
+								<?= form_error('name', '<medium class = "text-danger pl-3">', '</medium>'); ?>
 							</div>
 							<div class="form-group">
 								<label>Email address</label>
-								<input name="email" required="" type="email" class="form-control form-control-lg form-control-inverse">
+								<input id="email" name="email" value="<?= set_value('email')?>" required="" type="email" class="form-control form-control-lg form-control-inverse">
+								<?= form_error('email', '<medium class = "text-danger pl-3">', '</medium>'); ?>
 							</div>
 							<div class="form-group">
 								<label>Subject</label>
-								<select onchange="onChange(event)" name="subject" required=""
+								<select onchange="onChange(event)" name="subject" id="subject" value="<?= set_value('subject')?>" required=""
 									class="form-control form-control-lg form-control-inverse">
 									<option selected></option>
 									<option value="question">Contact / Questions</option>
@@ -107,15 +109,17 @@
 									<option value="app">Giveway / App Issues</option>
 									<option value="payment">Payment Issues</option>
 								</select>
+								<?= form_error('subject', '<medium class = "text-danger pl-3">', '</medium>'); ?>
 							</div>
 							<div class="form-group">
 								<label>Message</label>
-								<textarea name="message" required class="form-control form-control-lg form-control-inverse" id=""
+								<textarea  id="message" name="message" value="<?= set_value('message')?>" required class="form-control form-control-lg form-control-inverse" id=""
 									cols="30" rows="6"></textarea>
+									<?= form_error('message', '<medium class = "text-danger pl-3">', '</medium>'); ?>
 							</div>
 							<div class="alert alert-warning">
 								Please include the IG Post URL if you are having payment or app issues, or requesting an Invoice </div>
-							<input type="hidden" name="is_form_valid" value="1">
+							<input type="hidden"  name="is_form_valid" value="1">
 							<div class="g-recaptcha" data-sitekey="6Ld2MeUUAAAAAD4EslvxXqsiZXK_m8auBIRhSleO"></div>
 							<div class="d-flex justify-content-end">
 								<button type="submit" class="btn btn-lg btn-success" style="font-size: 15px;">Send</button>
