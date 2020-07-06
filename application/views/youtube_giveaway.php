@@ -77,7 +77,7 @@
 			<p class="lead mt-3">Create free Youtube giveaways & sweepstakes with your videos for free</p>
 			<div class="row justify-content-center mt-5 mb-3">
 				<div class="col-12 col-sm-8 col-md-6 col-lg-5 mt-3 ig-input">
-					<form onsubmit="return submitForm();" id="createForm" action="/en/app" method="POST">
+					<form onsubmit="return submitForm();" id="createForm" action="<?= base_url("App"); ?>" method="POST">
 						<i class="fab fa-youtube ig-input-icon"></i>
 						<input name="url" placeholder="Enter a Youtube Video URL" type="url" class="form-control form-control-lg" style="">
 						<p class="form-help">Example: https://www.youtube.com/watch?v=I_JZT9voG_c</p>
