@@ -11,8 +11,8 @@ class m_datauser extends CI_Model
     }
 
     public function edit($id_user,$id_package,$duration){
-        $query = $this->db->query("UPDATE tb_datauser SET id_package = $id_package , duration
-         = $duration where id_user = $id_user");
+        $query = $this->db->query("UPDATE tb_user SET id_package = '$id_package' , duration
+         = '$duration' where id_user = $id_user");
     }
 
     public function delete($id)

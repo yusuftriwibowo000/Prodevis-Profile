@@ -3,7 +3,7 @@
 function cekloginuser()
 {
     $ci = get_instance();
-    if (!$ci->session->userdata('id_user')) {
+    if (!$ci->session->userdata('username')) {
         redirect('Dashboard');
     }
 }
