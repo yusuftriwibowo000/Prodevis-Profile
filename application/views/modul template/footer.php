@@ -3,7 +3,8 @@
 	<div class="container pt-5 pb-5">
 		<div class="row">
 			<div class="col-12 col-md-5">
-				<img src="https://app-sorteos.com/img/logo2.png" class="mb-3" alt="" width="180">
+				<img src="<?= base_url(); ?>build/img/Undigiveway.png" class="mb-3" alt="" width="180" height="30">
+				<!-- <img src="https://app-sorteos.com/img/logo2.png" class="mb-3" alt="" width="180"> -->
 				<p>Create free Instagram and Youtube Giveaways and contents, online and free. Pick a random winner from your
 					Instagram photos and Youtube videos.</p>
 				<p>Create free Instagram, Youtube and "Random Name" Giveaways and Contents.</p>
@@ -13,17 +14,17 @@
 				<h5>Help</h5>
 				<ul class="list-unstyled mt-3">
 					<li>
-						<a href="https://app-sorteos.com/en/faqs">Faqs</a>
+						<a href="">Faqs</a>
 					</li>
 					<li>
-						<a href="https://app-sorteos.com/en/blog/how-to-create-instagram-giveawys-and-contest">How to create
+						<a href="">How to create
 							Instagram Giveaways</a>
 					</li>
 					<li>
-						<a href="https://app-sorteos.com/en/blog/find-your-instagram-photo-url">Find your Instagram picture URL</a>
+						<a href="">Find your Instagram picture URL</a>
 					</li>
 					<li>
-						<a href="https://app-sorteos.com/en/blog/filter-instagram-giveaway-comments">How to filter Instagram
+						<a href="">How to filter Instagram
 							Giveaways comments</a>
 					</li>
 				</ul>
@@ -31,10 +32,10 @@
 					<h5>More</h5>
 					<ul class="list-unstyled mt-2">
 						<li>
-							<a target="_blank" href="https://app-sorteos.com/en/giveaways-and-contest-certification">Certification</a>
+							<a target="_blank" href="">Certification</a>
 						</li>
 						<li>
-							<a target="_blank" href="https://app-sorteos.com/privacy-policy">Privacy Policy</a>
+							<a target="_blank" href="">Privacy Policy</a>
 						</li>
 					</ul>
 				</div>
@@ -43,22 +44,22 @@
 				<h5>Apps</h5>
 				<ul class="list-unstyled mt-2">
 					<li>
-						<a href="https://app-sorteos.com/en/apps/instagram-comment-picker">Instagram Giveaway</a>
+						<a href="">Instagram Giveaway</a>
 					</li>
 					<li>
-						<a href="https://app-sorteos.com/en/apps/facebook-comment-picker">Facebook Giveaway</a>
+						<a href="">Facebook Giveaway</a>
 					</li>
 					<li>
-						<a href="https://app-sorteos.com/en/apps/online-roll-dice">Roll Dice</a>
+						<a href="">Roll Dice</a>
 					</li>
 					<li>
-						<a href="https://app-sorteos.com/en/apps/youtube-giveaway">Youtube Giveaway</a>
+						<a href="">Youtube Giveaway</a>
 					</li>
 					<li>
-						<a href="https://app-sorteos.com/en/apps/pick-random-name-winner">Random Name Winner</a>
+						<a href="">Random Name Winner</a>
 					</li>
 					<li>
-						<a href="https://app-sorteos.com/en/apps/wheel-decide">Wheel Decide</a>
+						<a href="">Wheel Decide</a>
 					</li>
 				</ul>
 			</div>
@@ -227,7 +228,7 @@
 				</div>
 				<div class="modal-footer d-flex flex-column px-5 pb-4"
 					style="background-color: transparent !important;">
-					<a href="https://app-sorteos.com/en/blog/find-your-instagram-photo-url"
+					<a href=""
 						class="btn mx-0 mb-2 btn-success btn-lg btn-block">
 						Help </a>
 					<button type="button" class="btn mb-3 btn-primary btn-lg btn-block" data-dismiss="modal">Ok</button>
@@ -334,9 +335,9 @@
 							class="mt-3 js-mp-logo"
 							style="width: 120px;position: absolute;bottom: 0; right: 13px; display: none;">
 						<span class="d-none js-preference-url">/en/checkout?preference=</span>
-						<a href="https://app-sorteos.com/en/checkout?preference="
+						<!-- <a href="https://app-sorteos.com/en/checkout?preference="
 							class="js-btn-preference btn-block btn btn-success py-2 px-4 btn-bold">
-							Continue to Checkout </a>
+							Continue to Checkout </a> -->
 						<small class="text-secondary pt-1">No signup required</small>
 					</div>
 				</div>

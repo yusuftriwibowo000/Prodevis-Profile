@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
 	<a class="navbar-brand" href="<?= base_url(); ?>">
-		<img src="<?= base_url(); ?>build/img/Ulogonav.png" alt="" width="60" height="50">
+		
+		<img src="<?= base_url(); ?>build/img/Undigiveway.png" alt="" width="180" height="30">
 	</a>
 	<button class="navbar-toggler" class="navbar-dark" type="button" data-toggle="collapse"
 		data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"

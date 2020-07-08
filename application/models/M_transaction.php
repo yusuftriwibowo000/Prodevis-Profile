@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class M_pricing extends CI_Model
+class M_transaction extends CI_Model
 {
     private $_table = "tb_package";
     function getData(){

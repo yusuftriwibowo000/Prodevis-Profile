@@ -5,20 +5,19 @@ class Pricing extends CI_Controller
 {
     function __construct()
 	{
-		parent::__construct();
-		$this->load->model('M_pricing');
-		
+	    parent::__construct();
+        $this->load->model('M_pricing');
     }
-    public function index()
-	{
-		// $this->M_login->keamananLogout();
-		
-		$data = array(
-			'title' => 'Pricing',
-			'isi'	=> 'pricing'
-		);
-		$this->load->view('pricing', $data);
-
-		
+    
+    public function index(){
+        $dataPackage = $this->M_pricing->getData();
+        $data = array(
+            'title' => 'Pricing',
+            'content' => 'pricing',
+            'dataPackage' => $dataPackage,
+        );
+        $this->load->view('pricing' , $data);
 	}
+	
+    
 }

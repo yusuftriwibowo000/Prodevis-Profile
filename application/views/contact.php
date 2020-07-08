@@ -87,7 +87,7 @@
 				<div class="col-12 col-md-6 mt-5">
 					<div class="blog-post">
 						<h2 class="blog-post__title">Contact</h2>
-						<form  method="post" action="<?= base_url("Contact/add"); ?>">
+						<form  method="post" action="	">
 							<div class="form-group">
 								<label>Name</label>
 								<input id="name" name="name" value="<?= set_value('name')?>" required="" type="text" class="form-control form-control-lg form-control-inverse">

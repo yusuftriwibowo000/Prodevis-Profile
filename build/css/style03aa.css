@@ -155,7 +155,7 @@ header {
 }
 
 .navbar {
-	padding-bottom: 16px;
+	padding-bottom: 17px;
 	padding-top: 15px;
 	border-bottom: 1px solid rgba(0, 0, 0, .1)
 }
@@ -290,11 +290,11 @@ header {
 }
 
 .btn-primary {
-	border-color: #963066
+	border-color: #e0003b
 }
 
 .btn-primary:hover {
-	border-color: #963066
+	border-color: #e0003b
 }
 
 .btn.btn-md {
@@ -354,11 +354,11 @@ header {
 }
 
 .btn-primary {
-	background-color: #be3c81
+	background-color: #e0003b
 }
 
 .btn-primary:hover {
-	background-color: #ce208b
+	background-color: #b3303f
 }
 
 .btn-success {

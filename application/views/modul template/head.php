@@ -6,11 +6,15 @@
 <link rel="stylesheet" href="<?= base_url(); ?>vendors/use.fontawesome.com/releases/v5.7.0/css/all.css" type="text/css">
 <link rel="stylesheet" href="<?= base_url(); ?>vendors/stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">
 <link rel="stylesheet" href="<?= base_url(); ?>vendors/platform-api.sharethis.com/js/sharethis.js#property=5ea4443da10c1200152b4814&product=sticky-share-buttons&cms=sop" type="text/css">
+
 <link rel="stylesheet" href="<?= base_url(); ?>build/css/style03aa.css?1590497493" type="text/css"> 
+<link rel="stylesheet" href="<?= base_url(); ?>build/css/style03aa.css?1590497493" /> 
+<link rel="stylesheet" href="<?= base_url(); ?>build/font/asicons-v1.0/style0bfc.css?1588070804" />
 <link rel="stylesheet" href="<?= base_url(); ?>build/font/asicons-v1.0/style0bfc.css?1588070804" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=PT+Serif:700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Nunito|Roboto&amp;display=swap" rel="stylesheet">
+
 
 <link rel="stylesheet" href="<?= base_url(); ?>vendors/theme/css/linearicons.min.css">
 
