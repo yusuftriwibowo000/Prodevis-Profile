@@ -140,12 +140,14 @@ padding: 6px 10px;
 						
 					<img src="<?= base_url(); ?>build/img/logoDANA.png" style="padding:5px;" alt="" width="130" height="40">
                     <h6>0812-3245-6789</h6>
-                    
+                    <div class="alert alert-danger " style="padding:5px;">
+								
 						<h7  class="mb-0" style="font-style: bold; color: red;">*Please send a verification code to 0812-3245-6789 via Whatsapp </h7>
                         <img src="<?= base_url(); ?>build/img/logoWA.png" alt="" width="20" height="20">
                         <br>
                         <br>
                         <h7  style="font-style: bold; color: red;">*PLEASE SAVE VERIFICATION CODES </h7>
+					</div>
 					</div>
 					<table class="table">
 								<tbody>
