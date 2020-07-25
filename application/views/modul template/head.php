@@ -15,6 +15,8 @@
 <link href="https://fonts.googleapis.com/css?family=PT+Serif:700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Nunito|Roboto&amp;display=swap" rel="stylesheet">
 
+<link href="<?= base_url(); ?>assets_admin/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
 
 <link rel="stylesheet" href="<?= base_url(); ?>vendors/theme/css/linearicons.min.css">
 

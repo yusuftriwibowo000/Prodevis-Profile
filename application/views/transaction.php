@@ -99,16 +99,13 @@
 												</th>
 												<td>
 													<div class="form-group"class="mb-0">
-														
-															<select onchange="onChange(event)" name="subject" id="subject" value="<?= set_value('subject')?>" required=""
-															class="form-control form-control-inverse" class="text-center py-4">
-																<option  value="" selected></option>
-																<?php $no = 1; foreach ($dataPackage as $row): ?>
-																<option><?= $row->name_package; ?></option>
-																<!-- <option><?= $row->name_package; ?> - <?= $row->description; ?> - IDR <?= $row->price; ?></option> -->
-																<?php $no++; endforeach; ?>
-															</select>
-															<?= form_error('subject', '<medium class = "text-danger pl-3">', '</medium>'); ?>
+														<select name="name_package" id="paket" required=""
+														class="form-control form-control-inverse" class="text-center py-4">
+															<option value="" selected disabled>--Select--</option>
+															<?php foreach ($dataPackage as $row) { ?>
+															<option value="<?= $row->id_package; ?>"><?= $row->name_package; ?></option>
+															<?php } ?>
+														</select>
 													</div>
 												</td>
 											</tr>
@@ -117,9 +114,10 @@
 													<p class="lead" style="font-weight: 600; color: #737d92;">
 													Comment</p>
 												</th>
-												<td>	
-													<p class="lead" style="font-weight: 600; color: #737d92;">
-													<?= $row->description; ?></p>														
+												<td>
+													<input type="text" name="description" id="description" value="">	
+													<!-- <p name="description" id="description" class="lead" style="font-weight: 600; color: #737d92;">
+													</p> -->														
 												</td>
 											</tr>
 											<tr class="plan-1000">
@@ -133,7 +131,8 @@
 												<td>
 													<div class="price">
 														<!-- <span class="small">IDR</span> -->
-														<a class="small">IDR <?= $row->price; ?></a>
+														<input type="text" name="price" value="">
+														<!-- <a name="price" class="small">IDR</a> -->
 													</div>
 												</td>
 											</tr>
@@ -248,6 +247,47 @@
 
 	<script async type="text/javascript" src="../../s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59209fdf8bb355e5">
 	</script>
+	<!-- <script type="text/javascript">
+		function paket(){
+			var tes = document.getElementById("paket").value;
+			document.getElementById("description").value = tes;
+		}
+	</script> -->
+	<script type="text/javascript">
+	$("#paket").change(function(){
+
+            // variabel dari nilai combo box kendaraan
+            var id_package = $("#paket").val();
+
+            // Menggunakan ajax untuk mengirim dan dan menerima data dari server
+            $.ajax({
+                url : "<?php echo base_url('Transaction/get_paket');?>",
+                method : "POST",
+                data : {id_package:id_package},
+                async : false,
+                dataType : 'json',
+                success: function(data){
+                	$.each(data, function(id_package, name_package, description, price) {
+		            	$('[name="description"]').val(data.description);
+		            	$('[name="price"]').val(data.price);
+		          	});
+                    // var html = '';
+                    // var css = '';
+                    // var i;
+
+                    // for(i=0; i<data.length; i++){
+                        // html += '<option value='+data[i].id_merk_kendaraan+'>'+data[i].merk_kendaraan+'</option>';
+                        // html += '<a name="price" class="small">'+data[i].price+'</a>';
+                        // css += '<a name="description" class="small">'+data[i].description+'</a>';
+                    // }
+                    // $('#price').html(html);
+                    // $('#description').html(css);
+
+                }
+            });
+        });
+	</script>
+
 	<?php $this->load->view('modul template/footer'); ?>
 
 </body>

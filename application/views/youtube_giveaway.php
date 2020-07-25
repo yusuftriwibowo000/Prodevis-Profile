@@ -77,9 +77,9 @@
 			<p class="lead mt-3">Create free Youtube giveaways & sweepstakes with your videos for free</p>
 			<div class="row justify-content-center mt-5 mb-3">
 				<div class="col-12 col-sm-8 col-md-6 col-lg-5 mt-3 ig-input">
-					<form onsubmit="return submitForm();" id="createForm" action="<?= base_url("App"); ?>" method="POST">
+					<form action="<?= base_url("Youtube/youtube_giveaway"); ?>" method="POST">
 						<i class="fab fa-youtube ig-input-icon"></i>
-						<input name="url" placeholder="Enter a Youtube Video URL" type="url" class="form-control form-control-lg" style="">
+						<input name="url" placeholder="Enter a Youtube Video URL" type="text" class="form-control form-control-lg" style="">
 						<p class="form-help">Example: https://www.youtube.com/watch?v=I_JZT9voG_c</p>
 						<button type="submit" class="btn mt-4 btn-outline-light">Start</button>
 						<input type="hidden" name="type" value="youtube">
@@ -88,6 +88,14 @@
 			</div>
 		</div>
 	</div>
+
+				<script>
+					function myFunction() {
+					  var x = document.getElementById("myText").value;
+					  var filter = x.slice(32, 43);
+					  document.getElementById("demo").innerHTML = filter;
+					}
+				</script>
 
 				<script>
 					var procressMultiForm = function () {

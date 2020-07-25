@@ -16,7 +16,15 @@ class Youtube extends CI_Controller
 			'isi'	=> 'youtube_giveaway'
 		);
 		$this->load->view('youtube_giveaway', $data );
-
 		
+	}
+	function youtube_giveaway()
+	{
+		$data = array(
+			'title' => 'Youtube Giveaway',
+			'isi'	=> 'youtube_comment'
+		);
+		// redirect('Youtube');
+		$this->load->view('youtube_comment',$data);
 	}
 }
