@@ -1,8 +1,36 @@
+<?php
+function showYouTubeVideoComments() {
+	
+	$url = $_POST["url"];
+	$id_video = substr($url, 32);
+    $videoUrl = file_get_contents("https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=$id_video&key=AIzaSyAoXXywwvb2Y9VBCUkVhJ4ajkn38rCzu9Y");
+    $jsonStuff = json_decode($videoUrl, true);
+
+    if (empty($jsonStuff)) { echo "No comments were found."; } //If there are no comments, tell the user.
+
+/* Display each comment 'item' in array */
+    foreach($jsonStuff['items'] as $val) {
+
+      $commentName = $val['snippet']['topLevelComment']['snippet']['authorDisplayName']; 
+      $commentPic = $val['snippet']['topLevelComment']['snippet']['authorProfileImageUrl']; 
+      $comment = $val['snippet']['topLevelComment']['snippet']['textDisplay']; 
+
+
+    echo '<tbody>
+            <tr>
+                <td>'.$commentName.'</td>
+                <td><img src="'.$commentPic.'" width="64" /></td>
+                <td>'.$comment.'</td>
+            </tr>
+        </tbody>';
+    }
+
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en" xml:lang="en">
 
-<!-- Mirrored from app-sorteos.com/en by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 May 2020 12:56:53 GMT -->
-<!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
@@ -17,21 +45,22 @@
 	<div class="body">
 	    <div class="table-responsive">
 	        <table id="myTable" class="table table-striped table-bordered">
-	            <thead>
+	           <thead>
 	                <tr>
 	                    <th>Name</th>
 	                    <th>Picture</th>
 	                    <th>Comment</th>
 	                </tr>
 	            </thead>
-	            <tbody>
+	            <?php showYouTubeVideoComments(); ?>
+	            <!--<tbody>
 	                <?php
 	                $MAX_RESULTS = 10;
 	                $url = $_POST["url"];
 	                $id_video = substr($url, 32);
 	                // $urlCommentList ='https://www.youtube.com/oembed?url=http://www.youtube.com/watch?v=-u-YTpZyh80&maxResults=' . $MAX_RESULTS . '&key=AIzaSyDLADKdbDEL1pShayqZryLoZAIR07psbzE';
 
-	                $urlCommentList ='https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId='. $id_video . '&maxResults=' . $MAX_RESULTS . '&key=AIzaSyDLADKdbDEL1pShayqZryLoZAIR07psbzE';
+	                $urlCommentList ='https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId='. $id_video . '&key=AIzaSyAoXXywwvb2Y9VBCUkVhJ4ajkn38rCzu9Y';
 	                    $curl = curl_init();
 	                    curl_setopt($curl, CURLOPT_URL, $urlCommentList);
 	                    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
@@ -47,7 +76,7 @@
 	                ?>
 	                <?php
 	                //Comments List
-	                    for ($i = 0; $i < $MAX_RESULTS; $i++) {        
+	                    for ($i = 0; $i <= $MAX_RESULTS; $i++) {        
 	                        $commentPict = $value['items'][$i]['snippet']['topLevelComment']['snippet']['authorProfileImageUrl'];
 	                        $commentName = $value['items'][$i]['snippet']['topLevelComment']['snippet']['authorDisplayName'];
 	                        $comment = $value['items'][$i]['snippet']['topLevelComment']['snippet']['textDisplay'];
@@ -58,7 +87,7 @@
 	                    <td><?=$comment;?></td>
 	                </tr>
 	                <?php } ?>
-	            </tbody>
+	            </tbody> -->
 	        </table>
 	    </div>
 	</div>
@@ -96,7 +125,5 @@
 
 	<?php $this->load->view('modul template/footer'); ?>
 </body>
-
-<!-- Mirrored from app-sorteos.com/en by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 May 2020 13:23:56 GMT -->
 
 </html>
